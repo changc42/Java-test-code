@@ -1,12 +1,14 @@
 import javax.swing.JFrame;
 
 class test{
+	int x;
+	
+	int get(){
+		return x;
+	}
 	public static void main(String[] args){
-		JFrame frame = new JFrame();
-		frame.setLocation(1000,250);
-		frame.setSize(500,500);
-		frame.setDefaultCloseOperation(3);
-		frame.setVisible(true);
+		test a = new test();
+		System.out.println(a.get());
 		
 		
 	}
